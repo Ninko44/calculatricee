@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+
+public class Program
+{
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+
+
+    /* Pour info pour mettre les valeurs au démarrage fais dans l'odre suivant
+    Premier nombre
+    ensuite pour l'opération c'est plus compliquer   exemple: 54 x 54
+    1= +                                              54
+    2= -                                              3
+    3= *                                              54
+    4= /     
+    5= %
+    Deuxieme nombre
+    (bien sur c'est à mettre dans l'odre donc endessous du deuxieme nombre)
+    ET OUI penses bien à sauter des lignes entre chaques valeurs
+     */
+
+
+     int num = sc.nextInt();
+     int op = sc.nextInt();
+     int nuo = sc.nextInt();
+     
+     
+
+     if(op == 1){ System.out.print(num+nuo);
+         }else if(op == 2){ System.out.print(num-nuo);
+            }else if(op == 3){ System.out.print(num*nuo);                 
+                }else if (op == 4){ System.out.print(num/nuo);
+                     
+                }else if (op == 5){ System.out.print(num%nuo);
+
+                }        
+    }
+}   
+    
